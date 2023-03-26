@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="manager"/>
+  <parameter name="user" value="admin"/>
+  <parameter name="url" value="https:demo.actitime.com/login.do"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="jdbc.Parametrization">
+        <methods>
+          <include name="LoginTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- jdbc.Parametrization -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
