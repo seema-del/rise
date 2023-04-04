@@ -1,5 +1,5 @@
 package genericUtilities;
-
+//this methos is used to reuse the code infuture
 public interface AutoConstantPath {
 
 	String PROPERTIES_PATH = "./src/test/resources/commonData.properties";
